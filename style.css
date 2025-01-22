@@ -1,0 +1,119 @@
+H1
+{
+    font-size: 24px;
+}
+#me
+{
+     background-color: blue;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     font-style: italic;
+     line-height: 1.5;
+     letter-spacing: 2px;
+     word-spacing: 4px;
+}
+.abcd
+{
+    color: white;
+}
+.fields
+{
+    border: 2px solid black;
+    border-radius: 10px ;
+    width: 200px;
+    height: 100px;
+    border-top-color: orange;
+    border-bottom-color: blueviolet;
+}
+.card
+{
+    background-color: white;
+    padding: 20px;
+    box-shadow:10px 10px 10px 10px rgb(51, 153, 63);
+    align-items: center;
+    height: 200px;
+    width: 300px;
+}
+.card:hover
+{
+    box-shadow:20px 20px 20px 20px rgb(143, 51, 153);
+}
+#new
+{
+    background-color: darkseagreen;
+    margin: 20px 15px 25px 10px;
+    padding: 15px;
+    border: 2px solid black;
+}
+#left
+{
+    box-shadow: 20px 20px 20px 20px rgb(143, 51, 153);
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+#right
+{
+    box-shadow: 20px 20px 20px 20px rgb(199, 209, 70);
+    background-color: darkorange;
+    overflow: hidden;
+}
+.nav { background-color: coral; }
+.nav:hover
+{
+    background-color: rgb(211, 0, 207);
+}
+.nav:link
+{
+    background-color: chartreuse;
+}
+.nav:visited
+{
+    color: rgb(25, 0, 255);
+}
+.nav:active
+{
+    background-color: rgb(114, 250, 121);
+}
+#odd
+{
+    background-color:rgb(112, 218, 124) ;
+}
+#even
+{
+    background-color:turquoise ;
+}
+._1st
+{
+    font-size: 22px ;
+}
+.last
+{
+    border: 5px;
+}
+#btn
+{
+    color: rgb(50, 101, 204);
+    background: linear-gradient(to right, #ecb562, #a04592);
+    border-radius: 2px;
+    padding: 20px;
+    transform: rotateY('angle');
+}
+#btn:hover
+{
+    color: rgb(0, 225, 255);
+    transform: scale(1.05);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#cardx
+{
+    box-shadow:
+    border-radius: 25px 25px 25px 25px;
+    text-decoration: wavy;
+    width: 200px;
+}
+#cardx:hover
+{
+    background-color: rgb(94, 210, 173);
+}
